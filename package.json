@@ -1,0 +1,39 @@
+{
+  "name": "personal_site",
+  "version": "0.0.1",
+  "author": "Hong Wang",
+  "scripts": {
+    "watch": "webpack --watch --progress"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/kenns29/personal_site.git",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.0",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-addons-transition-group": "^15.6.0",
+    "react-dom": "^15.5.4",
+    "react-modal": "^1.7.7",
+    "react-redux": "^5.0.5",
+    "react-resize-detector": "^0.6.0",
+    "react-router": "^2.8.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.8.2",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.6.1"
+  }
+}
