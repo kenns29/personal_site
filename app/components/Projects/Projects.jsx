@@ -5,9 +5,11 @@ import {connect} from 'react-redux';
 import Nav from '../Nav';
 class Projects extends Component{
   render(){
-    <div className='projects'>
-
-    </div>
+    return (
+      <div className='projects'>
+        <Nav/>
+      </div>
+    );
   }
 }
 function mapStateToProps(state) {
@@ -16,4 +18,4 @@ function mapStateToProps(state) {
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({}, dispatch);
 }
-export default connect(mapStateToProps, matchDispatchToProps)(PageHeader);
+export default connect(mapStateToProps, matchDispatchToProps)(Projects);

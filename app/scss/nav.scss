@@ -1,0 +1,43 @@
+$height:20px;
+$primaryFont:'Open Sans', sans-serif;
+$gray-light: #e6e6e6;
+$gray-medium: #b1b1b1;
+$gray-dark: #4d4d4d;
+$action: #8a5fa9;
+.nav {
+  height: $height;
+  font-family: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom:10px;
+
+  .menu {
+    font-family: $primaryFont;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    li {
+      height: $height;
+      color: $gray-dark;
+      display: inline-block;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 3px solid transparent;
+      vertical-align: bottom;
+      margin-right: 5px;
+      &:hover{
+        border-color: $gray-medium;
+      }
+      &.selected {
+        border-color: $action;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+  }
+}

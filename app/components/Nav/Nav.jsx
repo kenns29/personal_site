@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {bindActionCreators} from "redux";
 import {connect} from 'react-redux';
 import {NavLink} from 'react-router-dom';
+import '../../scss/nav.scss';
 class Nav extends Component{
   render(){
     return (
