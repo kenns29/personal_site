@@ -5,6 +5,9 @@ import '../scss/main.scss';
 import PageHeader from './PageHeader';
 import Projects from './Projects';
 import Gadgets from './Gadgets';
+import Education from './Education';
+import Experience from './Experience';
+import Publication from './Publication';
 export default class App extends Component {
   render() {
     return (
@@ -14,6 +17,9 @@ export default class App extends Component {
           <Switch>
             <Route exact path='/' component={Projects}/>
             <Route path='/gadgets' component={Gadgets}/>
+            <Route path='/education' component={Education}/>
+            <Route path='/experience' component={Experience}/>
+            <Route path='/publication' component={Publication}/>
           </Switch>
         </Router>
       </div>

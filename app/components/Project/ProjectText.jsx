@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {bindActionCreators} from "redux";
 import {connect} from 'react-redux';
-class Project extends Component{
+class ProjectText extends Component {
   render(){
     return (
-      <div className='project'>
+      <div className='project-text'>
         {
           this.props.children &&
           React.Children.map(this.props.children,
@@ -20,6 +20,4 @@ function mapStateToProps(state) {
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({}, dispatch);
 }
-export default connect(mapStateToProps, matchDispatchToProps)(Project);
-export {default as ProjectImg} from './ProjectImg';
-export {default as ProjectText} from './ProjectText';
+export default connect(mapStateToProps, matchDispatchToProps)(ProjectText);

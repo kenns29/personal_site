@@ -17,15 +17,25 @@ class Nav extends Component{
             <NavLink activeClassName='active'
               to='/gadgets'>Gadgets</NavLink>
           </li>
+          <li className={routeName === 'education'?'selected':null}>
+            <NavLink activeClassName='active'
+              to='/education'>Education</NavLink>
+          </li>
+          <li className={routeName === 'experience'?'selected':null}>
+            <NavLink activeClassName='active'
+              to='/experience'>Experience</NavLink>
+          </li>
+          <li className={routeName === 'publication'?'selected':null}>
+            <NavLink activeClassName='active'
+              to='/publication'>Publication</NavLink>
+          </li>
         </ul>
       </div>
     );
   }
 }
 function mapStateToProps(state) {
-  return {
-    activeRoute: state.ui.activeRoute
-  };
+  return {};
 }
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({}, dispatch);
