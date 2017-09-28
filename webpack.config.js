@@ -1,4 +1,10 @@
 var path = require('path');
+var HTMLWebpackPlugin = require('html-webpack-plugin');
+var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
+    template: path.join(__dirname , 'views', 'index.html'),
+    filename: 'index.html'
+});
+var WriteFilePlugin = require('write-file-webpack-plugin');
 module.exports = {
     entry: [
         'babel-polyfill',
@@ -6,9 +12,8 @@ module.exports = {
     ],
     devtool: 'source-map',
     output: {
-        path: __dirname + '/dist',
+        path: __dirname,
         filename: 'bundle.js',
-        publicPath: '/'
     },
     resolve: {
         extensions: ['.js', '.jsx']
@@ -54,5 +59,10 @@ module.exports = {
     },
     devServer:{
         historyApiFallback: true
-    }
+    },
+    watch: true,
+    plugins: [
+      HTMLWebpackPluginConfig,
+      new WriteFilePlugin()
+    ]
 }

@@ -5,14 +5,17 @@ import {NavLink} from 'react-router-dom';
 import '../../scss/nav.scss';
 class Nav extends Component{
   render(){
+    const {routeName} = this.props;
     return (
       <div className='nav'>
         <ul className='menu'>
-          <li className='selected'>
-            <NavLink activeClassName='active' to='/projects'>Projects</NavLink>
+          <li className={routeName === 'projects'?'selected':null}>
+            <NavLink activeClassName='active'
+              to='/'>Projects</NavLink>
           </li>
-          <li>
-            <NavLink activeClassName='active' to='/gadgets'>Gadgets</NavLink>
+          <li className={routeName === 'gadgets'?'selected':null}>
+            <NavLink activeClassName='active'
+              to='/gadgets'>Gadgets</NavLink>
           </li>
         </ul>
       </div>
@@ -20,7 +23,9 @@ class Nav extends Component{
   }
 }
 function mapStateToProps(state) {
-  return {};
+  return {
+    activeRoute: state.ui.activeRoute
+  };
 }
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({}, dispatch);

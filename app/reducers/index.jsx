@@ -1,7 +1,5 @@
 import {combineReducers} from 'redux';
 import main from './main';
-const allReducers = combineReducers({
-  main
-});
-
+import ui from './ui';
+const allReducers = combineReducers({main,ui});
 export default allReducers;

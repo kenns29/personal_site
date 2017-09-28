@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "author": "Hong Wang",
   "scripts": {
-    "watch": "webpack --watch --progress"
+    "watch": "webpack --watch --progress",
+    "start": "webpack-dev-server --inline --progress"
   },
   "license": "MIT",
   "repository": "https://github.com/kenns29/personal_site.git",
@@ -11,11 +12,13 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.1",
     "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.30.1",
     "json-loader": "^0.5.4",
     "node-sass": "^4.5.0",
     "react": "^15.4.2",
@@ -34,6 +37,8 @@
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.9.1",
+    "write-file-webpack-plugin": "^4.2.0"
   }
 }

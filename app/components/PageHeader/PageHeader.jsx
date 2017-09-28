@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {bindActionCreators} from "redux";
-import {findDOMNode} from 'react-dom';
 import {connect} from 'react-redux';
 class PageHeader extends Component{
   render(){
