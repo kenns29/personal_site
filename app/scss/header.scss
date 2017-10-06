@@ -1,0 +1,35 @@
+#header-container{
+  position:relative;
+}
+#header-container .name{
+  padding-bottom: 20px;
+}
+#header-container .contact{
+  display: block;
+  position: relative;
+  height:20px;
+}
+#header-container .contact .method{
+  display: inline-block;
+  position: relative;
+  font-size:15px;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 100%;
+  vertical-align: top;
+}
+#header-container .contact a{
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right:10px;
+  height: 100%;
+  vertical-align: top;
+}
+#header-container .contact a div{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size:15px;
+  height: 100%;
+}

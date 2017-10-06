@@ -10,19 +10,23 @@ class PageHeader extends Component{
           <div className = "contact">
             <div className = "method">Email:</div>
             <a href="mailto:hxwang@asu.edu" target="_top" >
-              <div>hxwang@asu.edu</div>
+              <div>&nbsp;<span>hxwang@asu.edu</span></div>
             </a>
           </div>
           <div className = "contact">
             <div className = "method">LinkedIn:</div>
             <a href="https://www.linkedin.com/in/hong-wang-2a133854" target="_top">
-              <div>{`https://www.linkedin.com/in/hong-wang-2a133854`}</div>
+              <div>
+                <span>
+                  {`https://www.linkedin.com/in/hong-wang-2a133854`}
+                </span>
+              </div>
             </a>
           </div>
           <div className = "contact">
             <div className = "method">Resume:</div>
             <a href="./web_resume.pdf" target="_top">
-              <div>download</div>
+              <div><span>Download</span></div>
             </a>
           </div>
         </div>
