@@ -5,7 +5,7 @@ import Nav from '../Nav';
 class Experience extends Component{
   render(){
     return (
-      <div>
+      <div className={this.props.view === 'experience' ? '' : 'hidden'}>
         <Nav routeName='experience'/>
         <div id="experience">
           <ul>
@@ -38,7 +38,9 @@ function font(flag='large'){
   return {};
 }
 function mapStateToProps(state) {
-  return {};
+  return {
+    view : state.ui.view
+  };
 }
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({}, dispatch);

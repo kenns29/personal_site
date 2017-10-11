@@ -13,15 +13,10 @@ export default class App extends Component {
     return (
       <div id = "wrapper">
         <PageHeader/>
-        <Router>
-          <Switch>
-            <Route exact path='/' component={Projects}/>
-            <Route exact path='/gadgets' component={Gadgets}/>
-            <Route exact path='/education' component={Education}/>
-            <Route exact path='/experience' component={Experience}/>
-            <Route exact path='/publication' component={Publication}/>
-          </Switch>
-        </Router>
+        <Projects/>
+        <Education/>
+        <Experience/>
+        <Publication/>
       </div>
     );
   };

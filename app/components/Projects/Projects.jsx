@@ -11,7 +11,7 @@ import Education from './Education';
 class Projects extends Component{
   render(){
     return (
-      <div>
+      <div className={this.props.view === 'projects' ? '' : 'hidden'}>
         <Nav routeName='projects'/>
         <div className='projects'>
           <ClimateModel/>
@@ -26,7 +26,9 @@ class Projects extends Component{
   }
 }
 function mapStateToProps(state) {
-  return {};
+  return {
+    view : state.ui.view
+  };
 }
 function matchDispatchToProps(dispatch) {
   return bindActionCreators({}, dispatch);

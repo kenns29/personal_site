@@ -7,17 +7,15 @@ import {createStore, applyMiddleware} from 'redux';
 import createLogger from 'redux-logger';
 
 /* the combined reducers */
-import allReducers from './reducers/index.jsx';
+import allReducers from './reducers/index';
 
 /* the root element */
-import App from './components/App.jsx';
+import App from './components/App';
 
 /* creates the store */
-const logger =   createLogger({
+const logger = createLogger({
     level: 'warn',
     collapsed: true
-    /*Comment this line out if performance becomes too slow
-    ,stateTransformer: state => state.toJS()*/
 });
 
 const initialState = {};
