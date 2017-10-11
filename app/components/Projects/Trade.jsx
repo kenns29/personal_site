@@ -21,7 +21,6 @@ class Trade extends Component {
           and economic well-being. We also identify the sudden changes of the countries' network property
           and allow the analyst to explore the cause and effect of such change.`}
           </p>
-          <a href = "http://104.196.253.120:8080/TradeData/">Demo</a><span style={{fontStyle:'italic'}}>  long loading time</span>
         </ProjectText>
       </Project>
     );

@@ -27,12 +27,13 @@ class Education extends Component{
   }
 }
 function font(flag='large'){
+  const large = '20px', small = '15px';
   if(flag === 'large')
-    return {fontWeight:'bold',fontSize:'15px',display:'block'};
+    return {fontWeight:'bold',fontSize:large,display:'block'};
   else if(flag === 'small')
-    return {fontWeight:'bold',fontSize:'12px',display:'block'};
+    return {fontWeight:'bold',fontSize:small,display:'block'};
   else if(flag === 'italic')
-    return {fontStyle:'italic',fontSize:'12px',display:'block'};
+    return {fontStyle:'italic',fontSize:small,display:'block'};
   return {};
 }
 function mapStateToProps(state) {

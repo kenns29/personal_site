@@ -19,7 +19,6 @@ class DairyPaper extends Component {
             dairy products and plot distribution of tweets containing the phrases on a choropleth map.
             We also performed sentiment analysis on the tweets to assess the regional attitudes toward these dairy products
           </p>
-          <a href = "http://104.196.253.120:8080/dairy_topic_sentiment/">Demo</a>
         </ProjectText>
       </Project>
     );

@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {bindActionCreators} from "redux";
 import {connect} from 'react-redux';
 import {NavLink} from 'react-router-dom';
-import '../../scss/nav.scss';
 class Nav extends Component{
   render(){
     const {routeName} = this.props;
@@ -13,10 +12,10 @@ class Nav extends Component{
             <NavLink activeClassName='active'
               to='/'>Projects</NavLink>
           </li>
-          <li className={routeName === 'gadgets'?'selected':null}>
+          {/*<li className={routeName === 'gadgets'?'selected':null}>
             <NavLink activeClassName='active'
               to='/gadgets'>Gadgets</NavLink>
-          </li>
+          </li>*/}
           <li className={routeName === 'education'?'selected':null}>
             <NavLink activeClassName='active'
               to='/education'>Education</NavLink>

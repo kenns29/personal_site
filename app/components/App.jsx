@@ -16,10 +16,10 @@ export default class App extends Component {
         <Router>
           <Switch>
             <Route exact path='/' component={Projects}/>
-            <Route path='/gadgets' component={Gadgets}/>
-            <Route path='/education' component={Education}/>
-            <Route path='/experience' component={Experience}/>
-            <Route path='/publication' component={Publication}/>
+            <Route exact path='/gadgets' component={Gadgets}/>
+            <Route exact path='/education' component={Education}/>
+            <Route exact path='/experience' component={Experience}/>
+            <Route exact path='/publication' component={Publication}/>
           </Switch>
         </Router>
       </div>

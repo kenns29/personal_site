@@ -13,12 +13,11 @@ class ClimateModel extends Component {
         </ProjectImg>
         <ProjectText>
           <span className = "title">
-            A Visual Analytics Framework for Climate Model Comparison</span>
-          <ul>
-            <li>Calculate climate model accuracy based on various evaluation metrics.</li>
-            <li>Visualize and compare the model accuracy using various visualization techniques.</li>
-          </ul>
-          <span style={{fontStyle:'italic'}}>In Progress</span>
+            MyriadCues: Supporting Expert Judgment of Simulation Model Performance Using Comparative Visual Cues</span>
+          <p>
+            In simulation modeling, a common analytical task for domain experts is to reconcile information from experimental and observational data for judging model performance. Current analytical approaches towards expert judgment of model performance are slow and ineffective as they lack support for complex many-to-many comparison tasks. To fill this gap, we developed MyriadCues, a visual analytic interface for comparison of model performance disparities, through a participatory design process with climate scientists. At the core of MyriadCues, are perceptually motivated visual cues for letting experts reliably capture many-to-many associations across models, output variables, and metrics, and explore the reasons for good or bad model performance. We validated MyriadCues through expert case studies and expert feedback.  As part of our contributions, we present a classification scheme for translating analysis goals into comparative visual cues, describe the design choices in MyriadCues, and discuss the validation of the tool using case studies and expert feedback.
+          </p>
+          <span style={{fontStyle:'italic'}}>Submitted, Demo Comming</span>
         </ProjectText>
       </Project>
     );

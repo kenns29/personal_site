@@ -11,7 +11,7 @@ class Experience extends Component{
           <ul>
             <li>
               <span style={font('large')}>Pacific Northwest National Laboratory</span>
-              <span style={font('small')}>PhD Intern (2017 Summer)</span>
+              <span style={font('small')}>PhD Intern (2017-Current)</span>
             </li>
             <li>
               <span style={font('large')}>Arizona State University</span>
@@ -28,12 +28,13 @@ class Experience extends Component{
   }
 }
 function font(flag='large'){
+  const large = '20px', small = '15px';
   if(flag === 'large')
-    return {fontWeight:'bold',fontSize:'15px',display:'block'};
+    return {fontWeight:'bold',fontSize:large,display:'block'};
   else if(flag === 'small')
-    return {fontSize:'12px',display:'block'};
+    return {fontSize:small,display:'block'};
   else if(flag === 'italic')
-    return {fontStyle:'italic',fontSize:'12px',display:'block'};
+    return {fontStyle:'italic',fontSize:small,display:'block'};
   return {};
 }
 function mapStateToProps(state) {
