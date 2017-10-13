@@ -18,7 +18,10 @@ class Education extends Component {
             against the percent of students who receive Pell Grant. How do universities differ in terms of four year graduation rate,
             and Pell Grant rate and is there any correlation between these two variables? These are the questions that can be answered.
           </p>
-          <a href = "http://104.196.253.120:10081/">Demo</a>
+          <span>
+          <a href = "http://104.196.253.120:10081/">Demo</a>&nbsp;
+          <a href = "https://github.com/kenns29/EducationPlot">Code</a>
+          </span>
         </ProjectText>
       </Project>
     );
