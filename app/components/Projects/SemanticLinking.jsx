@@ -24,7 +24,8 @@ class SemanticLinking extends Component {
           </p>
           <span>
           <a href = "http://104.196.253.120:8080/DocumentRetrieval/DocumentRetrieval/DR.html">Demo</a>&nbsp;
-          <a href = "./demovideo.mp4" download>Video</a>
+          <a href = "./demovideo.mp4" download>Video</a>&nbsp;
+          <a href = "./SemanticLinking.pdf">Paper</a>
           </span>
         </ProjectText>
       </Project>
