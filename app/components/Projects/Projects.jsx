@@ -8,6 +8,7 @@ import SemanticLinking from './SemanticLinking';
 import DairyPaper from './DairyPaper';
 import Timeline from './Timeline';
 import Education from './Education';
+import GenderStudy from './GenderStudy';
 class Projects extends Component{
   render(){
     return (
@@ -15,6 +16,7 @@ class Projects extends Component{
         <Nav routeName='projects'/>
         <div className='projects'>
           <ClimateModel/>
+          <GenderStudy/>
           <SemanticLinking/>
           <Education/>
           <Trade/>

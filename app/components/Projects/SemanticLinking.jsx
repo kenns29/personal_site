@@ -22,8 +22,10 @@ class SemanticLinking extends Component {
             Such causal links are then annotated through automatic entity extraction which enables the analyst to explore persons,
             locations and organizations that may be pertinent to the streaming topic of interest.
           </p>
-          <a href = "http://104.196.253.120:8080/DocumentRetrieval/DocumentRetrieval/DR.html">Demo</a>
+          <span>
+          <a href = "http://104.196.253.120:8080/DocumentRetrieval/DocumentRetrieval/DR.html">Demo</a>&nbsp;
           <a href = "./demovideo.mp4" download>Video</a>
+          </span>
         </ProjectText>
       </Project>
     );

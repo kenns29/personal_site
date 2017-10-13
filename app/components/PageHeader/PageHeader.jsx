@@ -14,6 +14,13 @@ class PageHeader extends Component{
             </a>
           </div>
           <div className = "contact">
+            <div className = "method">Github:</div>
+            <a href="https://github.com/kenns29">
+              <div>{'https://github.com/kenns29'
+              }</div>
+            </a>
+          </div>
+          <div className = "contact">
             <div className = "method">LinkedIn:</div>
             <a href="https://www.linkedin.com/in/hong-wang-2a133854" target="_top">
               <div>
