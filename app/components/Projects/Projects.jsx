@@ -15,7 +15,6 @@ class Projects extends Component{
       <div className={this.props.view === 'projects' ? '' : 'hidden'}>
         <Nav routeName='projects'/>
         <div className='projects'>
-          <ClimateModel/>
           <GenderStudy/>
           <SemanticLinking/>
           <Education/>
