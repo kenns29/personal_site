@@ -10,16 +10,6 @@ class Publication extends Component{
         <div id="publication">
           <ul>
             <li>
-              <span>
-                <span style={{color:'blue'}}>Hong Wang</span>, Aritra Dasgupta, Susannah Burrows, Nancy O'brien, "MyriadCues: Supporting Expert Judgment of Simulation Model Performance Using Comparative Visual Cues", <span style={{fontStyle:'italic'}}> Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</span> (Submitted)
-              </span>
-            </li>
-            <li>
-              <span><span style={{color:'blue'}}>Hong Wang</span>, Yafeng Lu, Feng Wang, Steven Landis, Ryan Simmons, Shade T. Shutters, Ross Maciejewski, “A Visual Analytics Framework for Spatial Temporal Trade Network”,
-                 <span style={{fontStyle:'italic'}}> IEEE Transactions on Visualization and Computer Graphics</span> (Submitted)
-              </span>
-            </li>
-            <li>
               <span>Yafeng Lu, <span style={{color:'blue'}}>Hong Wang</span>, Steven Landis, Ross Maciejewski. "A Visual Analytics Framework for Identifying Topic Drivers in Media Events",
                 <span style={{fontStyle:'italic'}}>IEEE Transactions on Visualization and Computer Graphics</span> (To appear)
               </span>
