@@ -21,6 +21,10 @@ class Trade extends Component {
           and economic well-being. We also identify the sudden changes of the countries' network property
           and allow the analyst to explore the cause and effect of such change.`}
           </p>
+          <span>
+            <a href = "./tradedemo.mp4">Video</a>&nbsp;
+            <a href = "./trade.pdf">Paper</a>
+          </span>
         </ProjectText>
       </Project>
     );

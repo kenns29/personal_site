@@ -10,8 +10,12 @@ class Experience extends Component{
         <div id="experience">
           <ul>
             <li>
+              <span style={font('large')}>Uber</span>
+              <span style={font('small')}>Softeware Engineer Intern (2018)</span>
+            </li>
+            <li>
               <span style={font('large')}>Pacific Northwest National Laboratory</span>
-              <span style={font('small')}>PhD Intern (2017-Current)</span>
+              <span style={font('small')}>PhD Intern (2017-2018)</span>
             </li>
             <li>
               <span style={font('large')}>Arizona State University</span>
