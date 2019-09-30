@@ -11,6 +11,10 @@ class Experience extends Component{
           <ul>
             <li>
               <span style={font('large')}>Uber</span>
+              <span style={font('small')}>Softeware Engineer II (2019-Current)</span>
+            </li>
+            <li>
+              <span style={font('large')}>Uber</span>
               <span style={font('small')}>Softeware Engineer Intern (2018)</span>
             </li>
             <li>
@@ -19,7 +23,7 @@ class Experience extends Component{
             </li>
             <li>
               <span style={font('large')}>Arizona State University</span>
-              <span style={font('small')}>Research Assistant (2014-Current)</span>
+              <span style={font('small')}>Research Assistant (2014-2019)</span>
             </li>
             <li>
               <span style={font('large')}>Arizona State University</span>

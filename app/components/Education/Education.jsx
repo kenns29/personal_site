@@ -10,7 +10,7 @@ class Education extends Component{
         <div id="education">
           <ul>
             <li>
-              <span style={font('large')}>Computer Science, PhD Candidate (2019)</span>
+              <span style={font('large')}>Computer Science, PhD (2019)</span>
               <span style={font('small')}>Arizona State University</span>
               <span style={font('italic')}>Adviser:
                 <a href="http://rmaciejewski.faculty.asu.edu/">Ross Maciejewski</a>
