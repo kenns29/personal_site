@@ -1,57 +1,57 @@
-#header-container{
-  position:relative;
-  .info{
+#header-container {
+  position: relative;
+  .info {
     position: relative;
     display: inline-block;
-    .name{
+    .name {
       padding-bottom: 20px;
     }
-    .contact{
+    .contact {
       display: block;
       position: relative;
-      height:20px;
+      height: 20px;
     }
-    .contact .method{
+    .contact .method {
       display: inline-block;
       position: relative;
-      font-size:15px;
+      font-size: 15px;
       margin-top: 0px;
       padding-top: 0px;
       height: 100%;
       vertical-align: top;
     }
-    .contact a{
+    .contact a {
       display: inline-block;
       position: relative;
       margin-top: 0px;
       padding-top: 0px;
-      padding-right:10px;
+      padding-right: 10px;
       padding-left: 5px;
       height: 100%;
       vertical-align: top;
     }
-    .contact a div{
+    .contact a div {
       margin-top: 0px;
       padding-top: 0px;
-      font-size:15px;
+      font-size: 15px;
       height: 100%;
     }
   }
-  .figure{
+  .figure {
     position: absolute;
-    right:0px;
+    right: 0px;
     margin-top: 10px;
     margin-right: 20px;
     display: inline-block;
-    max-width:80.16px;
-    max-height: 120px;
+    max-width: 80.16px;
+    height: 120px;
     border-width: 5px;
     border-style: solid;
     border-color: #8a5fa9;
     border-radius: 5px;
-    .image{
-      width:100%;
-      height:100%;
+    .image {
+      width: 100%;
+      height: 100%;
     }
   }
 }
